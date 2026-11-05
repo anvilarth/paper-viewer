@@ -1,4 +1,4 @@
-# Research Paper Scout
+# Paper Viewer
 
 Find recent papers and technical reports, inspect available evidence, and produce
 an explained reading shortlist. Focus: image/video generation, editing, training,

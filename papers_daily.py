@@ -128,7 +128,7 @@ def atomic_json(path, data):
 
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={"User-Agent": "research-paper-scout/1.0", "Accept": "application/json, application/xml, text/xml;q=0.9, */*;q=0.5"})
+    request = urllib.request.Request(url, headers={"User-Agent": "paper-viewer/1.0", "Accept": "application/json, application/xml, text/xml;q=0.9, */*;q=0.5"})
     with urllib.request.urlopen(request, timeout=HTTP_TIMEOUT) as response:
         body = response.read()
         if body[:2] == b"\x1f\x8b":
